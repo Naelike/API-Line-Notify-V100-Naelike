@@ -2,6 +2,9 @@
 
 Access Token : Access <https://notify-bot.line.me/my/>
 
+http://img.in.th/images/dd97af925489ef681a30c86206e09b72.png
+http://img.in.th/images/05243311f1e21999f122941da036d0d3.png
+
 # API GET URL
 
 Service Line Notify Messages:
@@ -10,7 +13,7 @@ Service Line Notify Messages:
 - message : ข้อความที่จะส่ง
 
 
-Javascript : GET Service URL..
+Javascript : GET Service URL.
 ```
 function getParameter(name, url = window.location.href) {
   name = name.replace(/[\[\]]/g, '\\$&');
@@ -27,7 +30,7 @@ var gteMessage = message;
 var urlGet = '../line-notify/messages + '?token= + getToken + '&message=' + gteMessage
 ```
 
-PHP : GET Service URL..
+PHP : GET Service URL.
 ```
 $get_token = $_GET['token'];
 $gte_message = $_GET['message'];
