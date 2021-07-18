@@ -4,24 +4,23 @@
 # API GET URL
 
 Service Line Notify Messages:
-> ../line-notify/messages{token=}{message=}
+> ../line-notify/messages{token="**"}{message="**"}
 - token : ค่า Access Token
 - message : ข้อความที่จะส่ง
 
 
 Javascript:
 ```
-var token = {token=}
-var message = {message=}
-var urlGet = line-notify/
-git commit
+var getToken = {token="**"}
+var gteMessage = {message="**"}
+var urlGet = '.../line-notify/messages + '?token= + getToken + '&message=' + gteMessage
 ```
 
 PHP:
 ```
-git status
-git add
-git commit
+$get_token = {token="**"}
+$gte_message = {message="**"}
+$url_get = '.../line-notify/messages' . '?token=' . 'getToken' . '&message=' . gteMessage
 ```
 
 # Developer : NaeLike เนไลก์
