@@ -119,6 +119,31 @@ $.get(urlGet, function(data, status){
 });
 ```
 
+# JQuery GET Service Example 
+```
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+```
+```
+function getParameter(name, url = window.location.href) {
+  name = name.replace(/[\[\]]/g, '\\$&');
+  var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+      results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+var token = getParameter('token');
+var message = getParameter('message');
+var getToken = token;
+var gteMessage = message;
+var urlGet = '../line-notify/messages' + '?token=' + getToken + '&message=' + gteMessage
+```
+```
+$.get(urlGet, function(data, status){
+  console.log(data);
+});
+```
+
 # JavaScript GET Service Example 
 ```
 function getParameter(name, url = window.location.href) {
