@@ -175,7 +175,7 @@ xmlHttp.onreadystatechange = function() {
 
 # Developer : NaeLike เนไลก์
 
-Web :  <https://naelike.com>
+@octocat :+1: Web :  <https://naelike.com> ..! :shipit:
 
 TikTok :  <https://www.tiktok.com/@naelike6564>
 <br>
