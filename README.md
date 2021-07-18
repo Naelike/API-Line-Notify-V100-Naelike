@@ -26,7 +26,7 @@ Service Line Notify Messages:
 - token : ค่า Access Token
 - message : ข้อความที่จะส่ง
 
-Javascript : GET Service URL.
+.JS : GET Service URL.
 ```
 function getParameter(name, url = window.location.href) {
   name = name.replace(/[\[\]]/g, '\\$&');
@@ -121,7 +121,7 @@ $.ajax({url: urlGet, success: function(result){
 
 # JQuery GET Service Example 
 ```
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 ```
 ```
 function getParameter(name, url = window.location.href) {
