@@ -1,9 +1,13 @@
 # API Line Notify สำหรับผู้พัฒนา
 
 Access Token : Access <https://notify-bot.line.me/my/>
+
 > กดออก Access Token
+> 
 <img src="http://img.in.th/images/dd97af925489ef681a30c86206e09b72.png" width="300" alt="">
-> Token
+
+> ขั้นตอนออก Access Token
+
 1. โปรดใส่ชื่อ Token
    - โปรดเลือกห้องแชท
      - กดออก Token
