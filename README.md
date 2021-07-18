@@ -9,18 +9,18 @@ Service Line Notify Messages:
 - message : ข้อความที่จะส่ง
 
 
-Javascript:
+Javascript :
 ```
 var getToken = {token="**"}
 var gteMessage = {message="**"}
-var urlGet = '.../line-notify/messages + '?token= + getToken + '&message=' + gteMessage
+var urlGet = '../line-notify/messages + '?token= + getToken + '&message=' + gteMessage
 ```
 
-PHP:
+PHP :
 ```
 $get_token = {token="**"}
 $gte_message = {message="**"}
-$url_get = '.../line-notify/messages' . '?token=' . 'getToken' . '&message=' . gteMessage
+$url_get = '../line-notify/messages' . '?token=' . $get_token . '&message=' . $gte_message
 ```
 
 # Developer : NaeLike เนไลก์
