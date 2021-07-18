@@ -5,7 +5,7 @@
 
 In the words of Abraham Lincoln:
 
-> ../line-notify/messages
+> ../line-notify/messages {token=} {message=}
 - token : ค่า Access Token
 - message : ข้อความที่จะส่ง
 Some basic Git commands are:
