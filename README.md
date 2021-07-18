@@ -1,9 +1,8 @@
 # API Line Notify สำหรับผู้พัฒนา
 
 Access Token : Access <https://notify-bot.line.me/my/>
-
-http://img.in.th/images/dd97af925489ef681a30c86206e09b72.png
-http://img.in.th/images/05243311f1e21999f122941da036d0d3.png
+<img src="http://img.in.th/images/05243311f1e21999f122941da036d0d3.png" width="100%" alt="">
+<img src="http://img.in.th/images/dd97af925489ef681a30c86206e09b72.png" width="100%" alt="">
 
 # API GET URL
 
