@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>API Line Notify V100 Naelike | Axios</title>
+  </head>
+  <body>
+    <h1>API Line Notify V100 Naelike</h1>
+    <br>
+    <h4>Axios</h4>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="text/javascript">
+      function getParameter(name, url = window.location.href) {
+        name = name.replace(/[\[\]]/g, '\\$&');
+        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+      }
+      var token = getParameter('token');
+      var message = getParameter('message');
+      var getToken = token;
+      var gteMessage = message;
+      var urlGet = '../line-notify/messages' + '?token=' + getToken + '&message=' + gteMessage
+      axios({
+        method: "get",
+        url: urlGet,
+      })
+      .then(function(response) {
+        console.log(response.data);
+      })
+      .catch(function(response) {
+        console.log(response);
+      });
+    </script>
+  </body>
+</html>
