@@ -9,7 +9,7 @@ Service Line Notify Messages:
 - message : ข้อความที่จะส่ง
 
 
-Javascript : Get Info Url
+Javascript : GET Service URL..
 ```
 function getParameter(name, url = window.location.href) {
   name = name.replace(/[\[\]]/g, '\\$&');
@@ -26,7 +26,7 @@ var gteMessage = message;
 var urlGet = '../line-notify/messages + '?token= + getToken + '&message=' + gteMessage
 ```
 
-PHP : Get Info Url
+PHP : GET Service URL..
 ```
 $get_token = $_GET['token'];
 $gte_message = $_GET['message'];
