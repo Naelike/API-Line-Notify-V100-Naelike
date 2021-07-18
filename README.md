@@ -11,8 +11,18 @@ Service Line Notify Messages:
 
 Javascript : Get Info Url
 ```
-var getToken = {token="**"}
-var gteMessage = {message="**"}
+function getParameterByName(name, url = window.location.href) {
+  name = name.replace(/[\[\]]/g, '\\$&');
+  var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+      results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+var token = getParameterByName('token');
+var message = getParameterByName('message');
+var getToken = getToken;
+var gteMessage = message;
 var urlGet = '../line-notify/messages + '?token= + getToken + '&message=' + gteMessage
 ```
 
