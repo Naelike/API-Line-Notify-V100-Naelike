@@ -49,10 +49,9 @@ $gte_message = $_GET['message'];
 $url_get = '../line-notify/messages' . '?token=' . $get_token . '&message=' . $gte_message
 ```
 
-# Axios GET Service Example 
+# Ajax GET Service Example 
 ```
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 ```
 ```
 function getParameter(name, url = window.location.href) {
@@ -70,16 +69,9 @@ var gteMessage = message;
 var urlGet = '../line-notify/messages' + '?token=' + getToken + '&message=' + gteMessage
 ```
 ```
-axios({
-  method: "get",
-  url: urlGet,
-})
-.then(function(response) {
-  console.log(response.data);
-})
-.catch(function(response) {
-  console.log(response);
-});
+$.ajax({url: urlGet, success: function(result){
+  console.log(result);
+}});
 ```
 
 # Developer : NaeLike เนไลก์
