@@ -26,7 +26,6 @@ Service Line Notify Messages:
 - token : ค่า Access Token
 - message : ข้อความที่จะส่ง
 
-
 Javascript : GET Service URL.
 ```
 function getParameter(name, url = window.location.href) {
@@ -43,7 +42,14 @@ var getToken = getToken;
 var gteMessage = message;
 var urlGet = '../line-notify/messages + '?token= + getToken + '&message=' + gteMessage
 ```
+PHP : GET Service URL.
+```
+$get_token = $_GET['token'];
+$gte_message = $_GET['message'];
+$url_get = '../line-notify/messages' . '?token=' . $get_token . '&message=' . $gte_message
+```
 
+# GET Service PHP 
 PHP : GET Service URL.
 ```
 $get_token = $_GET['token'];
