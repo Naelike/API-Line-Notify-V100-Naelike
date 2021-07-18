@@ -1,5 +1,6 @@
-# API Line Notify
+# API Line Notify สำหรับผู้พัฒนา
 
+Access Token : Access <https://notify-bot.line.me/my/>
 
 # API GET URL
 
