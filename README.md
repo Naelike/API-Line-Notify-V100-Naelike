@@ -5,8 +5,9 @@
 
 In the words of Abraham Lincoln:
 
-> Pardon my French
-
+> ../line-notify/messages
+- token : ค่า Access Token
+- message : ข้อความที่จะส่ง
 Some basic Git commands are:
 ```
 git status
