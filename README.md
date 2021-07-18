@@ -11,7 +11,7 @@ Service Line Notify Messages:
 
 Javascript : Get Info Url
 ```
-function getParameterByName(name, url = window.location.href) {
+function getParameter(name, url = window.location.href) {
   name = name.replace(/[\[\]]/g, '\\$&');
   var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
       results = regex.exec(url);
@@ -19,8 +19,8 @@ function getParameterByName(name, url = window.location.href) {
   if (!results[2]) return '';
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
-var token = getParameterByName('token');
-var message = getParameterByName('message');
+var token = getParameter('token');
+var message = getParameter('message');
 var getToken = getToken;
 var gteMessage = message;
 var urlGet = '../line-notify/messages + '?token= + getToken + '&message=' + gteMessage
