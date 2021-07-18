@@ -40,7 +40,7 @@ var token = getParameter('token');
 var message = getParameter('message');
 var getToken = getToken;
 var gteMessage = message;
-var urlGet = '../line-notify/messages + '?token= + getToken + '&message=' + gteMessage
+var urlGet = '../line-notify/messages' + '?token=' + getToken + '&message=' + gteMessage
 ```
 PHP : GET Service URL.
 ```
@@ -79,7 +79,7 @@ var token = getParameter('token');
 var message = getParameter('message');
 var getToken = getToken;
 var gteMessage = message;
-var urlGet = '../line-notify/messages + '?token= + getToken + '&message=' + gteMessage
+var urlGet = '../line-notify/messages' + '?token=' + getToken + '&message=' + gteMessage
 ```
 ```
 axios({
