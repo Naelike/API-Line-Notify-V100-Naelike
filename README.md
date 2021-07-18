@@ -119,6 +119,35 @@ $.get(urlGet, function(data, status){
 });
 ```
 
+# JavaScript GET Service Example 
+```
+function getParameter(name, url = window.location.href) {
+  name = name.replace(/[\[\]]/g, '\\$&');
+  var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+      results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+var token = getParameter('token');
+var message = getParameter('message');
+var getToken = token;
+var gteMessage = message;
+var urlGet = '../line-notify/messages' + '?token=' + getToken + '&message=' + gteMessage
+```
+```
+var xmlHttp = new XMLHttpRequest();
+var contentType = "application/x-www-form-urlencoded; charset=utf-8";
+xmlHttp.open("GET", urlGet, true);
+xmlHttp.setRequestHeader('Content-type', contentType)
+xmlHttp.send(null);
+xmlHttp.onreadystatechange = function() {
+  if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
+    console.log(xmlHttp.responseText);
+  }
+}
+```
+
 # Developer : NaeLike เนไลก์
 
 Co-authored-by: name <name@example.com>
