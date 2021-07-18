@@ -175,6 +175,9 @@ xmlHttp.onreadystatechange = function() {
 
 # Developer : NaeLike เนไลก์
 
-Co-authored-by: name <name@example.com>
-<br>
-Co-authored-by: another-name <another-name@example.com>"
+Web :  <https://naelike.com>
+
+TikTok :  <https://www.tiktok.com/@naelike6564>
+Facebook :  <https://web.facebook.com/NaeLikePage>
+Instagram :  <https://www.instagram.com/naelike_ig>
+
