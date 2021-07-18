@@ -50,6 +50,11 @@ $get_token = $_GET['token'];
 $gte_message = $_GET['message'];
 $url_get = '../line-notify/messages' . '?token=' . $get_token . '&message=' . $gte_message
 ```
+```
+$api_get_json = file_get_contents($url_get);
+$json_jq = json_decode($api_get_json);
+echo json_encode($json_jq);
+```
 
 # Developer : NaeLike เนไลก์
 
