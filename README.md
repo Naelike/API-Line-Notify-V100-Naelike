@@ -38,7 +38,7 @@ function getParameter(name, url = window.location.href) {
 }
 var token = getParameter('token');
 var message = getParameter('message');
-var getToken = getToken;
+var getToken = token;
 var gteMessage = message;
 var urlGet = '../line-notify/messages' + '?token=' + getToken + '&message=' + gteMessage
 ```
@@ -77,7 +77,7 @@ function getParameter(name, url = window.location.href) {
 }
 var token = getParameter('token');
 var message = getParameter('message');
-var getToken = getToken;
+var getToken = token;
 var gteMessage = message;
 var urlGet = '../line-notify/messages' + '?token=' + getToken + '&message=' + gteMessage
 ```
