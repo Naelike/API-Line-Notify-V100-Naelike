@@ -3,18 +3,18 @@
 
 # API GET URL
 
-In the words of Abraham Lincoln:
-
-> ../line-notify/messages {token=} {message=}
+Service Line Notify Messages:
+> ../line-notify/messages{token=}{message=}
 - token : ค่า Access Token
 - message : ข้อความที่จะส่ง
+
+
 Some basic Git commands are:
 ```
 git status
 git add
 git commit
 ```
-
 
 # Developer : NaeLike เนไลก์
 
