@@ -49,8 +49,7 @@ $gte_message = $_GET['message'];
 $url_get = '../line-notify/messages' . '?token=' . $get_token . '&message=' . $gte_message
 ```
 
-# GET Service PHP 
-PHP : GET Service URL.
+# PHP GET Service Example 
 ```
 $get_token = $_GET['token'];
 $gte_message = $_GET['message'];
