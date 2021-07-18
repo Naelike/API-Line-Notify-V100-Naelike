@@ -61,7 +61,7 @@ $json_jq = json_decode($api_get_json);
 echo json_encode($json_jq);
 ```
 
-# AXISO GET Service Example 
+# Axios GET Service Example 
 ```
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
@@ -94,7 +94,7 @@ axios({
 });
 ```
 
-# AXISO GET Service Example 
+# Ajax GET Service Example 
 ```
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 ```
