@@ -9,17 +9,17 @@ Service Line Notify Messages:
 - message : ข้อความที่จะส่ง
 
 
-Javascript :
+Javascript : Get Info Url
 ```
 var getToken = {token="**"}
 var gteMessage = {message="**"}
 var urlGet = '../line-notify/messages + '?token= + getToken + '&message=' + gteMessage
 ```
 
-PHP :
+PHP : Get Info Url
 ```
-$get_token = {token="**"}
-$gte_message = {message="**"}
+$get_token = $_GET['token'];
+$gte_message = $_GET['message'];
 $url_get = '../line-notify/messages' . '?token=' . $get_token . '&message=' . $gte_message
 ```
 
