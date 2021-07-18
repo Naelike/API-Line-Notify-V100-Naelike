@@ -176,6 +176,7 @@ xmlHttp.onreadystatechange = function() {
 # Developer : NaeLike เนไลก์
 
 @เว็บไซต์ :+1: Web :  <https://naelike.com> ..! :shipit:
+@ติดตาม :+1: Web :  <https://naelike.com/addmee> ..! :shipit:
 
 TikTok :  <https://www.tiktok.com/@naelike6564>
 <br>
@@ -184,3 +185,5 @@ Facebook :  <https://web.facebook.com/NaeLikePage>
 Instagram :  <https://www.instagram.com/naelike_ig>
 <br>
 
+
+<a href="https://link.ckpzmc.xyz/dispnae"> <img class="rounded" src="https://i.pinimg.com/originals/1a/9a/f1/1a9af177bdcd0bd93568e59bb7600cbe.png" width="77%" alt="NaeLike"> <b class="fs-12">Discord คลิก..!</b> </a>
