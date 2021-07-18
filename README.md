@@ -4,7 +4,7 @@
 # API GET URL
 
 Service Line Notify Messages:
-> ../line-notify/messages[token="**"][message="**"]
+> ../line-notify/messages[token=message=]
 - token : ค่า Access Token
 - message : ข้อความที่จะส่ง
 
