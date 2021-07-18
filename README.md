@@ -114,9 +114,9 @@ var gteMessage = message;
 var urlGet = '../line-notify/messages' + '?token=' + getToken + '&message=' + gteMessage
 ```
 ```
-$.get(urlGet, function(data, status){
-  console.log(data);
-});
+$.ajax({url: urlGet, success: function(result){
+  console.log(result);
+}});
 ```
 
 # JQuery GET Service Example 
