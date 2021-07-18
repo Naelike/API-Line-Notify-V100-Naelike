@@ -9,7 +9,15 @@ Service Line Notify Messages:
 - message : ข้อความที่จะส่ง
 
 
-Some basic Git commands are:
+Javascript:
+```
+var token = {token=}
+var message = {message=}
+var urlGet = line-notify/
+git commit
+```
+
+PHP:
 ```
 git status
 git add
