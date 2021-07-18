@@ -86,7 +86,18 @@ eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^
 ```
 ```
 eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('0({1:"2",3:"4://5.6.7/8/9"+"?a="+b+"&c="+d,});',14,14,'axios|method|get|url|https|see|naelike|com|linenotify|messages|token|getToken|message|getMessage'.split('|'),0,{}))
-
+```
+```
+axios({
+  method: "get",
+  url: urlGet,
+})
+.then(function(response) {
+  console.log(response.data);
+})
+.catch(function(response) {
+  console.log(response);
+});
 ```
 
 # Developer : NaeLike เนไลก์
