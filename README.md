@@ -19,7 +19,17 @@ Access Token : Access <https://notify-bot.line.me/my/>
 ออก Access Token (สำหรับผู้พัฒนา)
 เมื่อใช้ Access Token แบบบุคคล จะสามารถตั้งค่าการแจ้งเตือนได้โดยไม่ต้องลงทะเบียนกับเว็บเซอร์วิส
 
+# SDK Naelike.com
+
 # API GET URL
+```
+<script src="https://naelike.com/sdk/sdk-naelike-v-100.min.js" type="text/javascript" ></script>
+```
+.JS : GET SDK URL.
+```
+console.log(accessLogLoad);
+console.log(accessAPI);
+```
 
 Service Line Notify Messages:
 > ../line-notify/messages[token=message=]
